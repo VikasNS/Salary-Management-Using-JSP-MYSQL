@@ -14,7 +14,7 @@
 
 <%
 	Class.forName("com.mysql.jdbc.Driver");
-	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/salaryManagement","root","***REMOVED***");
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/salaryManagement","","");
 	Statement smt = con.createStatement();
 	String name = request.getParameter("name");
 	String emailID = request.getParameter("emailID");
