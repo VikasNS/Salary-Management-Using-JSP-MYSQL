@@ -16,7 +16,7 @@ system. It allows:
 
   1. Addition of employees
   
-    a. This takes in the details about the name, email and salary of the employee.
+   This takes in the details about the name, email and salary of the employee.
     
     b. This scenario captures the idea of newly joined employees.
     
