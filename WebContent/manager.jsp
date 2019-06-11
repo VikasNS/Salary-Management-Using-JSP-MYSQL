@@ -60,7 +60,7 @@ function deleteEmployee(id) {
 <%
 	Class.forName("com.mysql.jdbc.Driver");  
 	Connection con=DriverManager.getConnection(  
-	"jdbc:mysql://localhost:3306/salaryManagement","root","***REMOVED***");  
+	"jdbc:mysql://localhost:3306/salaryManagement","","");  
 	Statement stmt = con.createStatement();
 	
 	String managerEmailID=request.getParameter("managerEmailID");
