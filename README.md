@@ -14,13 +14,13 @@ stored in a table within a database.
 Once the manager is authenticated with the proper credentials, he/she can begin using the
 system. It allows:
 
-  1. Addition of employees
+1. Addition of employees
   
-   This takes in the details about the name, email and salary of the employee.
+   a. This takes in the details about the name, email and salary of the employee.
     
-    b. This scenario captures the idea of newly joined employees.
+   b. This scenario captures the idea of newly joined employees.
     
-  2. Deletion of employees
+ 2. Deletion of employees
   
     a. Upon pressing the delete button against an employee, the portal gets redirected
     to an intermediate page that performs the delete operation on the database and
@@ -29,7 +29,7 @@ system. It allows:
     b. This idea is relevant in cases where employees are no longer working in the
     manager's department.
     
-  3. Updation of salary of an employee
+ 3. Updation of salary of an employee
   
     a. Similar to the delete button, the update operation is carried out in an
     intermediate page to reflect the changes in both the database and the portal.
@@ -47,12 +47,12 @@ Modules Identified
 
 The solution that we have developed makes use of the following modules:
 
-  1. JavaServer Page together with HTML.
+1. JavaServer Page together with HTML.
   
     a. Used for both front-end and back-end operations. It was also used to facilitate
     intermediate stages of an operation.
     
-  2. MySQL as the Database Management System.
+2. MySQL as the Database Management System.
   
     b. The manager details and the employee details are stored in two separate
     
